@@ -1,0 +1,27 @@
+body{  
+    background-color: blueviolet;
+    margin:0px;
+    padding:0px;
+}
+aside{
+    background-color:cornflowerblue;
+}
+#FotoPerfil{
+    border-radius: 100%;
+}
+.ContPrinc{
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    height: 100vh;
+    
+}
+.sidebar{
+display: grid;
+align-content: center;
+    grid-row: 1/9;
+    grid-column:1/2; 
+  border-radius: 0px 20px 0px 0px;
+}
+.sidebar p{
+  
+}
