@@ -156,16 +156,19 @@ grid-row:6/12;
 }
 #cont1 h1{
     font-size: 7vmax;
- text-shadow:5px 5px 10px rgba(21, 136, 154, 0.203), 
+ text-shadow:5px 5px 10px rgba(7, 28, 31, 0.722), 
  -15px -8px 20px rgba(0, 0, 0, 0.436);
+ color: rgba(3, 187, 254, 0.879);
     
 }
 #cont1 h6{
     font-size: 2vmax;
     margin-top: -10px;
     font-size: 2vmax;
-    text-shadow:5px 2px 5px rgba(21, 136, 154, 0.203), 
+    color: rgb(175, 27, 126);
+    text-shadow:5px 2px 5px rgba(5, 32, 36, 0.722), 
     -0px -2px 3px rgba(0, 0, 0, 0.436);
+    
 }
 
 
@@ -232,19 +235,19 @@ animation : maquina 2s  steps(50);
  
 .skills{
     border-radius: 17px;
-    background: #161b2c;
-    box-shadow: inset -5px 5px 10px #111521,
-                inset 5px -5px 10px #1b2137;
+    background: #090a18;
+    box-shadow: inset -5px 5px 10px #17011a,
+                inset 5px -5px 10px #171b2d;
     display:grid ;
-    justify-content: center;
     grid-column:13/17 ;
     grid-row: 3/16;
 border: 3px solid rgb(175, 27, 126);
     border-radius: 30px;
     transform: rotate(10deg);
     place-content: center;
-    font-size: 1vmax;
+    font-size: 0.9vmax;
     z-index: 2;
+
  
 }
 .skills:hover{
@@ -252,7 +255,12 @@ border: 3px solid rgb(175, 27, 126);
 transform:  rotate(9deg);
 border: 3px solid #1c4e73;
 }
-
+.skills h3{
+    color: rgba(3, 187, 254, 0.879);
+}
+.skills h1{
+    color: rgb(175, 27, 126);
+}
 
 
 /* TABLE /////////////////////////////////////////////*/
