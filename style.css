@@ -139,7 +139,7 @@ nav{
     display: grid;
     grid-row:4/14;
         grid-column:2/14;
-        border: 4px solid #1c4e73;
+        border: 4px solid #1c4d73;
         border-radius: 20px;
         z-index: 1;
 }
@@ -234,8 +234,9 @@ animation : maquina 2s  steps(50);
 
  
 .skills{
+    /* padding:0px 0px 0px 40px; */
     border-radius: 17px;
-    background: #090a18;
+    background: #010102bb;
     box-shadow: inset -5px 5px 10px #17011a,
                 inset 5px -5px 10px #171b2d;
     display:grid ;
