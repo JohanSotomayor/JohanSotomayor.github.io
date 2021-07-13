@@ -1,7 +1,7 @@
 body{  
     margin: 0px;
     padding: 0px;
-    background: rgba(14,11,31,1);
+    background: rgb(9, 8, 14);
     /* background: -moz-linear-gradient(-45deg, rgba(14,11,31,1) 7%, rgba(18,17,32,1) 47%, rgba(24,24,33,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(7%, rgba(14,11,31,1)), color-stop(47%, rgba(18,17,32,1)), color-stop(100%, rgba(24,24,33,1)));
     background: -webkit-linear-gradient(-45deg, rgba(14,11,31,1) 7%, rgba(18,17,32,1) 47%, rgba(24,24,33,1) 100%);
