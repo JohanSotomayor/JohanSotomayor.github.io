@@ -232,11 +232,11 @@ animation : maquina 2s  steps(50);
  
 .skills{
     border-radius: 17px;
-    background: #161b2c;
+    background: #00000096;
     box-shadow: inset -5px 5px 10px #111521,
                 inset 5px -5px 10px #1b2137;
     display:grid ;
-    justify-content: center;
+    text-align: center;
     grid-column:13/17 ;
     grid-row: 3/16;
 border: 3px solid rgb(175, 27, 126);
@@ -245,6 +245,7 @@ border: 3px solid rgb(175, 27, 126);
     place-content: center;
     font-size: 1vmax;
     z-index: 2;
+
  
 }
 .skills:hover{
@@ -252,7 +253,12 @@ border: 3px solid rgb(175, 27, 126);
 transform:  rotate(9deg);
 border: 3px solid #1c4e73;
 }
-
+.skills h3{
+    color: rgb(0, 140, 255);
+}
+.skills h1{
+    color: rgb(255, 94, 0);
+}
 
 
 /* TABLE /////////////////////////////////////////////*/
